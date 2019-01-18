@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Ozone Park</string>
+    <string name="testvalue">Good job</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="requestusername">Username Please</string>
+    <string name="requestpassword">Password Please</string>
+    <string name="password_hint">Enter your password here</string>
+    <string name="username_hint">Enter your username here</string>
+    <string name="requestlastname">Last Name</string>
+    <string name="lastname_hint">Enter your lastname</string>
+    <string name="firstname_hint">Enter your first name</string>
+    <string name="requestfirstname">First Name</string>
+    <string name="requestmiddlename">Middle Name</string>
+    <string name="middlename_hint">Enter your middle name</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="confirmpassword_hint">Confirm your previous password</string>
+    <string name="occupied">- Occupied </string>
+    <string name="unoccupied">- Not Occupied</string>
+    <string name="select_slot">Please touch one of the buttons below to choose a space</string>
+    <string name="book_slot">Secure</string>
+    <string name="title_activity_login_activityg">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="logout">Logout</string>
+    <string name="close_application">Exit Ozone Park</string>
+    <string name="full_name">Bill Clinton</string>
+    <string name="req_name">Name: </string>
+    <string name="default_username">solowise</string>
+    <string name="req_username">Username</string>
+    <string name="checkout">Checkout</string>
+    <string name="default_slot">Space 1</string>
+    <string name="req_slot">Space:</string>
+    <string name="ip_address">192.168.43.229</string>
+</resources>

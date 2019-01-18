@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="16dp"
+              android:background="@drawable/round_button"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/requestlastname"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/lastname"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:hint="@string/lastname_hint"
+        android:background="@drawable/round_edittext"
+        android:inputType="text"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/requestfirstname"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/firstname"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:hint="@string/firstname_hint"
+        android:background="@drawable/round_edittext"
+        android:inputType="text"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Licence Number"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/middlename"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:hint="Enter your licence number"
+        android:background="@drawable/round_edittext"
+        android:inputType="text"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/requestusername"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="@drawable/round_edittext"
+        android:hint="@string/username_hint"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/requestpassword"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/password"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:hint="@string/password_hint"
+        android:background="@drawable/round_edittext"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/confirmpassword"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/confirmpassword"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:hint="@string/confirmpassword_hint"
+        android:background="@drawable/round_edittext"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp"
+        />
+
+    <Button
+        android:id="@+id/reg_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_edittext"
+        android:text="@string/register"/>
+</LinearLayout>
